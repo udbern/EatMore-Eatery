@@ -1,0 +1,19 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "UdakAbasi Bernard",
+  "license": "ISC",
+  "devDependencies": {
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.3",
+    "kutty": "^0.6.0"
+  }
+}
